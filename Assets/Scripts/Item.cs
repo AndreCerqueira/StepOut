@@ -19,8 +19,10 @@ public class Item : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) {
+            GameObject.Find("GameManager").GetComponent<GameManager>().xp += 10;
             Destroy(this.gameObject);
+        }
     }
 
 }
