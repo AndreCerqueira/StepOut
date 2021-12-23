@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1797665969}
   - component: {fileID: 1797665968}
   - component: {fileID: 1797665967}
+  - component: {fileID: 5475008041093921910}
   m_Layer: 0
   m_Name: Moeda
   m_TagString: Untagged
@@ -62,6 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1326fd81793e65499872a1bb43f5bc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: coin
 --- !u!135 &1797665967
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -75,6 +77,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &5475008041093921910
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4817831489640492289}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05469564193797f4f9d2f802e107a3f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8981341482144259664
 GameObject:
   m_ObjectHideFlags: 0

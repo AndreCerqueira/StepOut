@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 273917715}
   - component: {fileID: 273917717}
   - component: {fileID: 273917716}
+  - component: {fileID: 8147553131134539597}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -62,6 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1326fd81793e65499872a1bb43f5bc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: banana
 --- !u!135 &273917716
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -75,6 +77,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &8147553131134539597
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6433252842600522402}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05469564193797f4f9d2f802e107a3f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7439879689084064243
 GameObject:
   m_ObjectHideFlags: 0

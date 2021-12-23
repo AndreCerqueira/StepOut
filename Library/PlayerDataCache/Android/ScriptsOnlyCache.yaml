@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraFollowPlayer
     - GameManager
     - Item
     - ItemSpawner
@@ -46,6 +47,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -61,6 +70,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
@@ -111,6 +123,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1566}
     - Class: 114
       Script: {instanceID: 1568}
     - Class: 114
@@ -168,6 +182,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3530}
     - Class: 114
+      Script: {instanceID: 3546}
+    - Class: 114
       Script: {instanceID: 3670}
     - Class: 114
       Script: {instanceID: 3764}
@@ -177,6 +193,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3916}
     - Class: 114
       Script: {instanceID: 3982}
+    - Class: 114
+      Script: {instanceID: 4002}
     - Class: 114
       Script: {instanceID: 4096}
     - Class: 114
@@ -205,6 +223,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5840}
     - Class: 114
       Script: {instanceID: 6062}
+    - Class: 114
+      Script: {instanceID: 46066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -694,7 +714,7 @@ ScriptsOnlyBuild:
     className: LoftModifier
   - hash:
       serializedVersion: 2
-      Hash: c31d3a4b6caeba4d02eca3cc5427f7dd
+      Hash: ae41fe66064772f55c4c90587c6de1fb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ItemSpawner
@@ -1468,7 +1488,7 @@ ScriptsOnlyBuild:
     className: ARMeshManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 1df5043f0424ac97346ea8f965958921
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Item
@@ -1664,6 +1684,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ImageDataFetcher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraFollowPlayer
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
